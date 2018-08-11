@@ -8,7 +8,7 @@ class MessgSendor(object):
         self.last_time = ''
 
     def log_in(self):
-        itchat.auto_login()
+        itchat.auto_login(enableCmdQR=True)
 
     def get_time(self, id):
         data = get_weather_byid(id)
