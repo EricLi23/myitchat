@@ -43,9 +43,9 @@ sender = MessgSendor()
 def main():
     sender.log_in()
     while True:
-        res = sender.get_time('101010200')
+        res = sender.get_time('101010300')
         if res:
-            fr = itchat.search_friends(remarkName='flyobird')
+            fr = itchat.search_friends(remarkName='李二瓜')
             tar = fr[0]['UserName']
             sender.start_send(res, tar)
         sleep(20)
