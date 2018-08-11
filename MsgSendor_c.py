@@ -45,7 +45,7 @@ def main():
     while True:
         res = sender.get_time('101010300')
         if res:
-            fr = itchat.search_friends(remarkName='李二瓜')
+            fr = itchat.search_friends(remarkName='xzll')
             tar = fr[0]['UserName']
             sender.start_send(res, tar)
         sleep(20)
