@@ -1,0 +1,1 @@
+var dataSK = {"nameen":"haidian","cityname":"海淀","city":"101010200","temp":"30","tempf":"86","WD":"东风","wde":"E","WS":"1级","wse":"&lt;12km/h","SD":"72%","time":"12:40","weather":"多云","weathere":"Cloudy","weathercode":"d01","qy":"999","njd":"0km","sd":"72%","rain":"0.0","rain24h":"0","aqi":"","limitnumber":"不限行","aqi_pm25":"","date":"08月11日(星期六)"}
