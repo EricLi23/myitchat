@@ -1,2 +1,3 @@
-./base_config.py
+base_config.py
 *.pyc
+*.pkl

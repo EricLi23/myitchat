@@ -1,14 +1,17 @@
 import itchat
 from getWeather import get_weather_byid
 from time import sleep
-
+from base_config import *
 
 class MessgSendor(object):
     def __init__(self):
         self.last_time = ''
 
     def log_in(self):
-        itchat.auto_login(enableCmdQR=True)
+        if version == 'release':
+            itchat.auto_login(enableCmdQR=True)
+        else:
+            itchat.auto_login()
 
     def get_time(self, id):
         data = get_weather_byid(id)
