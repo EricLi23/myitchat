@@ -1,1 +1,1 @@
-version = 'local'
+version = 'test'
