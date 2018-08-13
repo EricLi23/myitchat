@@ -1,1 +1,1 @@
-version = 'test'
+version = 'release'
