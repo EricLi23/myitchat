@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T03:43:31.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="jivzjZHkPEKqY62dc308" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T06:28:23.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="euJPg4st4cwuq7wKr2dp" version="20.1.4" type="github">
   <diagram id="j2xFF6dWLdvySgO7YBa3" name="第 1 页">
     <mxGraphModel dx="783" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="ebUCkN1Dy4gkY2kswimO-8" value="etcd版本号校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="133.5" width="110" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-9" value="拉取并加载所有domain数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-9" value="拉取并加载全量domain数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="141" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-19" value="" style="group" vertex="1" connectable="0" parent="1">
