@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T02:48:54.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="8ZrAFcTkfhuYVbE5fWZY" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T03:24:42.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="e3srtlHwcEREYfEI1vnv" version="20.1.4" type="github">
   <diagram id="j2xFF6dWLdvySgO7YBa3" name="第 1 页">
     <mxGraphModel dx="861" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-12" value="配置文件生成加载器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="348" y="380" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-13" value="配置文件生成加载器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
