@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T06:32:20.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="P8xP95sYdMnGsNOpV8Io" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T07:58:43.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="zdwmmOth5mR2bmp7NwGc" version="20.1.4" type="github">
   <diagram id="j2xFF6dWLdvySgO7YBa3" name="第 1 页">
     <mxGraphModel dx="1219" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-8" target="ebUCkN1Dy4gkY2kswimO-11">
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-8" target="ebUCkN1Dy4gkY2kswimO-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-37" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ebUCkN1Dy4gkY2kswimO-36">
@@ -33,6 +33,15 @@
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-8" value="etcd版本号校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="133.5" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-9" target="ebUCkN1Dy4gkY2kswimO-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="418" />
+              <mxPoint x="630" y="418" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-9" value="拉取并加载全量domain数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="141" width="100" height="50" as="geometry" />
@@ -50,7 +59,7 @@
           <mxGeometry x="60" y="29.090909090909093" width="70" height="29.090909090909093" as="geometry" />
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="415" y="255" width="170" height="120" as="geometry" />
+          <mxGeometry x="425" y="350" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-16" value="启动协程" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-32">
           <mxGeometry width="170" height="120" as="geometry" />
@@ -73,13 +82,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-38" value="etcd异常控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="300" width="90" height="30" as="geometry" />
+          <mxGeometry x="280" y="395" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-16" target="ebUCkN1Dy4gkY2kswimO-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-40" value="启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="208" y="55" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-48" target="ebUCkN1Dy4gkY2kswimO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-48" value="拉取并加载增量domain数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="250" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
