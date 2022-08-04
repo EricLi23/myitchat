@@ -1,38 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T03:24:42.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="e3srtlHwcEREYfEI1vnv" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T03:42:24.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="kkuxfspaTSsc9zNJvWoP" version="20.1.4" type="github">
   <diagram id="j2xFF6dWLdvySgO7YBa3" name="第 1 页">
-    <mxGraphModel dx="861" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="783" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-1" value="启动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="70" height="40" as="geometry" />
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ebUCkN1Dy4gkY2kswimO-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0000000000001" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.088;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-3" target="ebUCkN1Dy4gkY2kswimO-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-3" value="获取设备节点信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="168" y="150" width="70" height="40" as="geometry" />
+          <mxGeometry x="290" y="50" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-4" value="监听集群节点状态信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="278" y="150" width="70" height="40" as="geometry" />
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-8" target="ebUCkN1Dy4gkY2kswimO-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-5" value="监听集群domain信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="150" width="70" height="40" as="geometry" />
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-28" value="不通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ebUCkN1Dy4gkY2kswimO-23">
+          <mxGeometry x="-0.2057" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-8" target="ebUCkN1Dy4gkY2kswimO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-37" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ebUCkN1Dy4gkY2kswimO-36">
+          <mxGeometry x="-0.1227" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-8" value="etcd版本号校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="230" width="100" height="100" as="geometry" />
+          <mxGeometry x="450" y="133.5" width="110" height="65" as="geometry" />
         </mxCell>
         <mxCell id="ebUCkN1Dy4gkY2kswimO-9" value="拉取并加载所有domain数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="141" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-10" value="心跳发送器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="78" y="380" width="90" height="40" as="geometry" />
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="130" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-11" value="日志扫描器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="380" width="90" height="40" as="geometry" />
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-18" value="启动监听" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-19">
+          <mxGeometry width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-12" value="配置文件生成加载器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="348" y="380" width="90" height="40" as="geometry" />
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-4" value="集群节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-19">
+          <mxGeometry x="60" width="70" height="29.09" as="geometry" />
         </mxCell>
-        <mxCell id="ebUCkN1Dy4gkY2kswimO-13" value="配置文件生成加载器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="380" width="90" height="40" as="geometry" />
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-5" value="集群domain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-19">
+          <mxGeometry x="60" y="29.090909090909093" width="70" height="29.090909090909093" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="415" y="255" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-16" value="启动协程" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-32">
+          <mxGeometry width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-10" value="心跳传送器" style="whiteSpace=wrap;html=1;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-32">
+          <mxGeometry x="90" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-11" value="日志扫描器" style="whiteSpace=wrap;html=1;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-32">
+          <mxGeometry x="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-12" value="配置文件生成加载器" style="whiteSpace=wrap;html=1;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-32">
+          <mxGeometry x="40" y="60" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-13" value="pwonerDNS日志处理器" style="whiteSpace=wrap;html=1;" vertex="1" parent="ebUCkN1Dy4gkY2kswimO-32">
+          <mxGeometry x="40" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-5" target="ebUCkN1Dy4gkY2kswimO-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="166.66666666666674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-38" value="etcd异常监控" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebUCkN1Dy4gkY2kswimO-16" target="ebUCkN1Dy4gkY2kswimO-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebUCkN1Dy4gkY2kswimO-40" value="启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="181" y="55" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
